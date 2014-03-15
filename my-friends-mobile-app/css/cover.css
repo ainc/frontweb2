@@ -33,7 +33,8 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -50,8 +51,6 @@ body {
   background-position:right top;
   background-repeat: no-repeat;
   background-size: 100%;
-    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 .cover-container {
   margin-right: auto;
@@ -165,4 +164,11 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
